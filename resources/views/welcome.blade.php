@@ -65,7 +65,6 @@
         </style>
     </head>
     <body>
-        
         @include('inc.navbar')
     </body>
 </html>

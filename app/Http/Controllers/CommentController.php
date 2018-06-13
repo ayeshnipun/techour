@@ -3,9 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Post;
 
-class PostController extends Controller
+class CommentController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +13,7 @@ class PostController extends Controller
      */
     public function index()
     {
-        $post = Post::all();
-        return view('posts.show') -> with('posts', $post);
+        //
     }
 
     /**

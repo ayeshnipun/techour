@@ -1,3 +1,7 @@
+<link href="{{ asset('css/app.css') }}" rel="stylesheet">
+<script type="text/javascript" src="{{asset('js/app.js')}}"></script>
+
+
 <div id="app">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-laravel">
             <div class="container">
@@ -41,8 +45,4 @@
                 </div>
             </div>
         </nav>
-
-        <main class="py-4">
-            @yield('content')
-        </main>
     </div>
